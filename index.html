@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <title>Illés Lejla</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/Kosar.js" type="text/javascript"></script>
+    <script src="js/Termek.js" type="text/javascript"></script>
+    <script src="js/Ajax.js" type="text/javascript"></script>
+    <script src="js/js.js" type="text/javascript"></script>
+
+    <link href="css/stilus.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <main>
+      <div id="container">
+        <header>
+          <h1>Webáruház</h1>
+          <div class="api">
+            <select id="rendezes">
+              <option value="arnov">Rendezés ár szerint növekvő</option>
+              <option value="arcsok">Rendezés ár szerint csökkenő</option>
+              <option value="nevnov">Rendezés név szerint növekvő</option>
+              <option value="nevcsok">
+                Rendezés név szerint csökkenő
+              </option></select
+            ><br />
+
+            <div class="kereso">
+              <label for="kereses">Kereső: </label>
+              <input type="search" id="kereses" name="kereses" />
+            </div>
+          </div>
+        </header>
+        <nav>
+          <ul>
+            <li><a href="index.html">Kezdőlap</a></li>
+            <li><a href="fizetes.html">Fizetés</a></li>
+            <li><a href="admin.html">Admin</a></li>
+          </ul>
+        </nav>
+        <article class="termekek"></article>
+
+        <aside>
+          <h1>A kosár tartalma</h1>
+          <div class="kosar">
+            <table></table>
+            <p>Összeg:</p>
+          </div>
+          <a href="fizetes.html"
+            ><button id="fizetes">Tovább a fizetéshez</button></a
+          >
+        </aside>
+
+        <footer>
+          <div class="termek">
+            <h3 class="termeknev">Kép címe</h3>
+            <img src="kepek/gyertya1.jpg" class="kep" alt="" />
+            <p class="leiras">Kép leírása</p>
+            <button class="kosarGomb">Kosár</button>
+            <span class="ar">Ár</span>
+          </div>
+        </footer>
+      </div>
+    </main>
+  </body>
+</html>

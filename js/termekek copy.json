@@ -1,0 +1,54 @@
+{
+   "gyertyak": [
+    {
+        "id":"1",
+        "nev": "Karácsonyi gyertya szójaviaszból",
+        "leiras": "Fahéjas illatú, kézzel készített ünnepi dekortermék.",
+        "ar": 1700,
+        "kep": "kepek/gyertya1.jpg"
+    },
+    {
+        "id":"2",
+        "nev": "Karácsonyi gyertya méhviaszból",
+        "leiras": "Narancsos illatú, kézzel készített ünnepi dekortermék.",
+        "ar": 1800,
+        "kep": "kepek/gyertya2.jpg"
+    },
+    {
+        "id":"3",
+        "nev": "Gyertya szárazvirágokkal",
+        "leiras": "Vanília illatú, kézműves dekortermék.",
+        "ar": 2500,
+        "kep": "kepek/gyertya3.jpg"
+    },
+    {
+        "id":"4",
+        "nev": "Eukaliptuszos gyertya",
+        "leiras": "Kókuszviaszból készült, kézműves dekortermék.",
+        "ar": 1500,
+        "kep": "kepek/gyertya4.jpg"
+    },
+    {
+        "id":"5",
+        "nev": "Mécses fatörzsben",
+        "leiras": "Szantálfa-vanília illatú, kézműves dekortermék.",
+        "ar": 1000,
+        "kep": "kepek/gyertya5.jpg"
+    },
+    {
+        "id":"6",
+        "nev": "Gyertya búzavirágokkal",
+        "leiras": "Méz illatú, kézműves dekortermék.",
+        "ar": 1600,
+        "kep": "kepek/gyertya6.jpg"
+    },
+    {
+        "id":"7",
+        "nev": "Levendulás gyertya",
+        "leiras": "Levendula illatú, kézműves dekortermék.",
+        "ar": 1600,
+       "kep": "kepek/gyertya7.jpg"
+    }
+ 
+]
+}

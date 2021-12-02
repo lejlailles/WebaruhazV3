@@ -1,0 +1,188 @@
+@charset "utf-8";
+
+body {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+header {
+  text-align: center;
+  grid-area: h;
+}
+
+main {
+  width: 1100px;
+
+  margin: auto;
+  background-color: #ffc185;
+  font-family: "Roboto", sans-serif;
+  box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.25);
+}
+
+#container {
+  display: grid;
+  grid-template-areas:
+    "h h h h h h "
+    "n n n n n n "
+    "a a a r r r "
+    "f f f f f f ";
+
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+h1 {
+  color: darkslategray;
+  text-transform: uppercase;
+}
+
+h3 {
+  color: dimgray;
+}
+
+.termek {
+  border-radius: 5px;
+  box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.25);
+  color: #87613d;
+  padding: 5px;
+  background-color: white;
+  position: relative;
+  padding-bottom: 30px;
+  
+}
+
+.termek img {
+  width: 100%;
+}
+
+article {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  grid-area: a;
+  text-align: center;
+  
+}
+
+.kosar p {
+  color:brown;
+  font-weight: bolder;
+}
+
+
+
+aside {
+  grid-area: r;
+  background-color: white;
+  text-align: center;
+  border-radius: 5px;
+  position: relative;
+  box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.25);
+  color: #87613d;
+  padding: 5px;
+  font-size:14px;
+  height: 75%;
+  overflow: auto;
+  
+}
+
+article span {
+  
+  margin: 5px;
+  padding: 2px;
+  border: 1px solid gray;
+  position:absolute;
+  right:2px;
+  bottom:1px;
+
+}
+
+.kosarGomb {
+  
+  margin: 5px;
+  padding: 2px;
+  color: #87613d;
+  position: absolute;
+  left:1px;
+  bottom:2px;
+  
+}
+
+#fizetes {
+  margin: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 2px;
+  color: #87613d;
+}
+
+nav {
+  grid-area: n;
+}
+
+
+nav ul {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-gap: 5px;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: dimgray;
+}
+
+nav li {
+  margin: 5px;
+  background-color: white;
+  border: 1px solid grey;
+  border: 1px solid lightgrey;
+  padding: 5px;
+  box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+article div img {
+  width: 100%;
+  height:190px;
+}
+
+footer {
+  background-color: whitesmoke;
+  grid-area: f;
+}
+
+table {
+  padding:5px;
+  border-bottom: 1px solid #87613d ;
+  border-spacing: 10px;
+  text-align: left;
+}
+
+
+.api {
+  
+  position: relative;
+  padding-bottom: 30px;
+  border:1px solid grey;
+  background-color: white;
+ 
+ 
+}
+
+#rendezes {
+  position:absolute;
+  right:440px;
+  bottom:2px;
+ 
+
+}
+
+#kereses {
+  margin:20px;
+}
+

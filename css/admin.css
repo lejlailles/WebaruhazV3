@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+body {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+header {
+  text-align: center;
+  grid-area: h;
+}
+
+main {
+  width: 1100px;
+
+  margin: auto;
+  background-color: #ffc185;
+  font-family: "Roboto", sans-serif;
+  box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.25);
+}
+
+#container {
+  display: grid;
+  grid-template-areas:
+    "h h h h h h "
+    "n n n n n n "
+    "a a a a a a "
+    "s s s s s s "
+    "f f f f f f ";
+}
+
+h1 {
+  color: darkslategray;
+  text-transform: uppercase;
+}
+
+h3 {
+  color: dimgray;
+}
+
+.termek img {
+  width: 100%;
+}
+
+article {
+  display: grid;
+  grid-area: a;
+  text-align: center;
+  background-color: white;
+  margin: 5px;
+}
+
+section {
+  grid-area: s;
+  padding-bottom: 30px;
+}
+
+nav {
+  grid-area: n;
+}
+
+nav ul {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-gap: 5px;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: dimgray;
+}
+
+nav li {
+  margin: 5px;
+  background-color: white;
+  border: 1px solid grey;
+  border: 1px solid lightgrey;
+  padding: 5px;
+  box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+article img {
+  width: 100%;
+  height: 190px;
+}
+
+footer {
+  background-color: whitesmoke;
+  grid-area: f;
+}
+
+article table {
+  width: 100%;
+}
+article tr {
+  width: 100%;
+
+  padding: 5px;
+}
+
+article th {
+  border: 1px solid lightgray;
+  padding: 5px;
+}
+td {
+  border: 1px solid lightgray;
+  padding: 5px;
+}
+
+.urlap {
+  display:flex;
+  justify-content: center;
+  
+  padding:10px;
+}
+
+input,textarea {
+  width:300px;
+}
+
+
